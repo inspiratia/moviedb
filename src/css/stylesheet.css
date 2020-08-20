@@ -1,0 +1,40 @@
+header {
+    background-image: url("../img/home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-footer a {
+    color: grey;
+}
+
+header>.container {
+    height: 95vh;
+}
+
+#search {
+    padding-top: 25vh;
+    transition: padding-top .5s;
+}
+
+main .container {
+    transition: margin-top .5s;
+}
+
+movie-card img {
+    cursor: pointer;
+}
+
+td {
+    word-wrap: break-word;
+}
